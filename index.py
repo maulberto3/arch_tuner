@@ -31,6 +31,8 @@ from string import ascii_lowercase
 
 # check the TODO's below
 
+# https://www.kaggle.com/maulberto3/an-experiment-on-dynamic-nets
+
 # manual_seed(16)
 # seed(16)
 
