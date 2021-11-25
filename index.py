@@ -29,9 +29,15 @@ from string import ascii_lowercase
 # Pretty much I did this only to see if I could discover differences in
 # accuracy probably due to interesting net architectures
 
-# check the TODO's below
+# TODO 
+# Rescale data
+# Adjust for CNNs, RNNs, etc.
+# Adjust for user-supplied arch
+# Integrate with Optuna
+# :)
 
 # https://www.kaggle.com/maulberto3/an-experiment-on-dynamic-nets
+# https://github.com/maulberto3/arch_tuner
 
 # manual_seed(16)
 # seed(16)
