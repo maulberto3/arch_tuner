@@ -247,3 +247,16 @@ t.to_csv('temp.csv', index=False)
 
 # print(t2.groupby(6).mean().squeeze())
 # print(t2.groupby(6).std().squeeze())
+
+# sample random generated architecture net
+
+print(f'{sum([numel(sublayer) for layer in net.init_layers.values() for sublayer in layer.parameters()]):,} init params')
+print(f'{sum([numel(sublayer) for layer in net.hidden_layers.values() for sublayer in layer.parameters()]):,} hidden params')
+    
+list(zip(
+        net.helper.values(),
+        net.helper.keys(),
+        net.helper3.values(), 
+        net.helper2.values()))
+    
+make_dot(net(ones(1,784)))
